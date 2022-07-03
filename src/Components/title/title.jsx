@@ -10,8 +10,8 @@ import letterM from "../../images/titleLetters/Vector-M.svg"
 
 const TitleComponent = () => {
     return (
-        <div className="title-container">
-            <div className="letter-container">
+        <div className="wrapper">
+            <div className="title-container">
                 <img src={letterA} alt="A" className="letter" />
             </div>
 

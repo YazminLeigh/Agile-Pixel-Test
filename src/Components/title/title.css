@@ -1,6 +1,6 @@
 .title-container {
-    max-height: 100vh;
-    width: 15rem;   
+    width: 15rem; 
+    max-width: 100vh;  
 }
 
 .letter-container {
