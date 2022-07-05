@@ -12,6 +12,7 @@ const TitleComponent = () => {
     return (
         <div className="wrapper">
             <div className="title-container">
+            <div>
                 <img src={letterA} alt="A" className="letter" />
             </div>
 
@@ -34,7 +35,7 @@ const TitleComponent = () => {
             <div className="letter-container">
                 <img src={letterP} alt="P" className="letter" />
             </div>
-
+        </div>
         </div>
     )
 }

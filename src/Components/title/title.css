@@ -1,12 +1,52 @@
+.letter {
+    width: 14rem;
+}
+
+
 .title-container {
-    width: 15rem; 
-    max-width: 100vh;  
-}
-
-.letter-container {
-    width: 100%;
-    height: auto;
+    max-height: 98vh;
+    max-width: 15rem; 
 }
 
 
+@media only screen and (max-height: 810px) {
+    .letter {
+        width: 12rem;
+    }
+}
 
+@media only screen and (max-height: 710px) {
+    .letter {
+        width: 10rem;
+    }
+}
+
+@media only screen and (max-height: 600px) {
+    .letter {
+        width: 8.8rem;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .letter {
+        width: 6rem;
+    }
+
+    .title-container {
+        transform: rotate(90deg);
+    }
+}
+
+
+
+/* @media only screen and (max-height: 520px) {
+    .letter {
+        width: 4rem;
+    }
+
+    .title-container {
+        transform: rotate(90deg);
+        top: 0;
+        
+    }
+} */

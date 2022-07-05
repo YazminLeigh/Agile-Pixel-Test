@@ -1,19 +1,32 @@
 import './App.css';
-import backgroundImage from "./images/CFS_Paloma_Infinity_Shot_04_0776-edit 2.jpg"
 import TitleComponent from './Components/title/title';
+import NavComponent from './Components/nav/nav';
+// import { useNav } from './Components/Hooks/useNav';
 
 function App() {
+
+
+  // const nav = useNav()
+
   return (
     <div className="App">
       <header className="App-header">
       </header>
       <body>
         <div className="background-image-container">
-          <img src={backgroundImage} alt="Paloma" className="background-image" />
           <div className="title" >
             <TitleComponent />
           </div>
-        </div>
+          <div className="navBar-home-container">
+            <NavComponent className="nav" />
+          </div>
+          </div>
+          {/* <div className="navBar-contaoner">
+            {nav.map((item, index) => {
+              <NavComponent nav={item} key={index} /> 
+            })
+            }
+          </div> */}
       </body>
     </div>
 
